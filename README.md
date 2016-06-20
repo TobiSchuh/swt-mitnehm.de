@@ -18,3 +18,7 @@
 * es wird geprüft auf Vorhandensein der Attribute, darauf, dass diese nicht zu land sind, es wird geprüft, ob email das richtige Format hat, ungültige emailadresse werden erkannt, es wird auf einzigartigkeit der email-adresse geprüft
 * die Einzigartigkeit der email-Adresse muss ebenfalls auf Datenbankebene verifiziert werden
 * dazu updaten wir das momentane Model, indem wir neue Struktur hinzufügen, anschließend migrieren wir die geupdatete datenbank
+* Methode  has_secure_password geadded für Passwort-verifizierung
+* die Methode benötigt ein Attribut password_digest, dafür muss die aktuelle
+ datenbank um das attribut derweitert werden
+*
