@@ -3,15 +3,15 @@ Rails.application.routes.draw do
 
 
   root 'static_pages#home'
-  get 'static_pages/impressum'
+  get 'impressum' => 'static_pages#impressum'
 
-  get 'static_pages/contact'
+  get 'contact' => 'static_pages#contact'
 
-  get 'static_pages/login'
+  get 'login' => 'static_pages#login'
 
-  get 'static_pages/registrieren'
+  get 'registrieren' => 'static_pages#registrieren'
 
-  get 'static_pages/bewerten'
+  get 'bewerten' => 'static_pages#bewerten'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
