@@ -12,3 +12,4 @@
 * die ruby funktion render sorgt dafür, dass die Unterseiten Fußund Kopfzeile auf der Hauptapplikationsseite angezeigt werden.
 *um eine erfolgreiche Registrierung vornehmen zu können, legen wir einen neuen Controller users an
 * bei den Routes verändern wir das Routing von registrieren_path zum view new_users
+*weiterhin erstellen wir ein Modell user über den Befehl rails generate modell mit den Attributen Name, Benutzername und email
