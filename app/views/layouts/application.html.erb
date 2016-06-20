@@ -8,20 +8,10 @@
 </head>
 <body>
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Registrieren", registrieren_path %></li>
-            <li><%= link_to "Login", login_path %></li>
-            <li><%= link_to "Bewerten", bewerten_path %></li>
-             <li><%= link_to "Home", root_path %></li>  
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <%= render 'layouts/kopfzeile'%>
     <div class="container">
       <%= yield %>
+      <%= render 'layouts/fusszeile' %>
     </div>
   </body>
 </body>
