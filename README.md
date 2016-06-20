@@ -15,4 +15,6 @@
 *weiterhin erstellen wir ein Modell user über den Befehl rails generate modell mit den Attributen Name, Benutzername und email
 * anschließend muss die Datenbank migriert werden
 *als Vorarbeit für das Registrierungsformular erstellen wir einige Tests, die auf Integrität der Eingaben überprüfen
-* es wird geprüft auf Vorhandensein der Attribute, darauf, dass diese nicht zu land sind, es wird geprüft, ob email das richtige Format hat, ungültige emailadresse werden erkannt, es wird auf einzigartigkeit der email-adresse geprüft 
+* es wird geprüft auf Vorhandensein der Attribute, darauf, dass diese nicht zu land sind, es wird geprüft, ob email das richtige Format hat, ungültige emailadresse werden erkannt, es wird auf einzigartigkeit der email-adresse geprüft
+* die Einzigartigkeit der email-Adresse muss ebenfalls auf Datenbankebene verifiziert werden
+* dazu updaten wir das momentane Model, indem wir neue Struktur hinzufügen, anschließend migrieren wir die geupdatete datenbank
