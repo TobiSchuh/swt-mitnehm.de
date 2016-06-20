@@ -85,11 +85,20 @@ def setup
     assert_not duplicate_user.valid?
   end
 
+# überprüft, dass Passwort nicht leer ist
+
+
  test "Es sollte kein leeres Passwort eingegeben werden" do
     @user.password = @user.password_confirmation = " " * 6
     assert_not @user.valid?
   end
 
+# Passwort sollte eine Mindestlänge haben
+
+test "Mindestlänge Passwort" do
+    @user.password = @user.password_confirmation = "a" * 5
+    assert_not @user.valid?
+  end
 
 
 
