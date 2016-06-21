@@ -89,14 +89,14 @@ def setup
 
 
  test "Es sollte kein leeres Passwort eingegeben werden" do
-    @user.password = @user.password_confirmation = " " * 6
+    @user.password = @user.password_confirmation = " " * 8
     assert_not @user.valid?
   end
 
 # Passwort sollte eine Mindestlänge haben
 
 test "Mindestlänge Passwort" do
-    @user.password = @user.password_confirmation = "a" * 5
+    @user.password = @user.password_confirmation = "a" * 6
     assert_not @user.valid?
   end
 

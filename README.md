@@ -21,4 +21,4 @@
 * Methode  has_secure_password geadded für Passwort-verifizierung
 * die Methode benötigt ein Attribut password_digest, dafür muss die aktuelle
  datenbank um das attribut derweitert werden
-*
+*Mindestlänge und Vorhandensein/Nichtleerseinsbedingung Passwort eingeführt
