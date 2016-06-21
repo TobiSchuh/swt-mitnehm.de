@@ -22,3 +22,5 @@
 * die Methode benötigt ein Attribut password_digest, dafür muss die aktuelle
  datenbank um das attribut derweitert werden
 *Mindestlänge und Vorhandensein/Nichtleerseinsbedingung Passwort eingeführt
+* Login Bereich view eingeführt
+* Fehlermeldung view, falls Eingaben zu kurz
