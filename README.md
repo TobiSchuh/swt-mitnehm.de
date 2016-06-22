@@ -23,4 +23,5 @@
  datenbank um das attribut derweitert werden
 *Mindestlänge und Vorhandensein/Nichtleerseinsbedingung Passwort eingeführt
 * Login Bereich view eingeführt
-* Fehlermeldung view, falls Eingaben zu kurz
+*  ein Partial angelegt um Fehlermeldungen bei fehlerhaften Eingaben zu rendern
+
