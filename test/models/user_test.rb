@@ -41,7 +41,7 @@ def setup
   end
 
    test "Benutzername sollte nicht zu lang sein" do
-    @user.name = "a" * 50
+    @user.benutzername = "a" * 50
     assert_not @user.valid?
   end
 
