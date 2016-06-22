@@ -4,10 +4,12 @@ Rails.application.routes.draw do
 
 
 
+  get 'sessions/new'
+
   root 'static_pages#home'
   get 'impressum' => 'static_pages#impressum'
   get 'contact' => 'static_pages#contact'
-  get 'login' => 'static_pages#login'
+  get 'login' => 'sessions#new'
   get 'registrieren' => 'users#new'
   get 'bewerten' => 'static_pages#bewerten'
   get 'show'     => 'users#show'

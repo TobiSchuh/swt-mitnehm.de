@@ -24,4 +24,6 @@
 *Mindestlänge und Vorhandensein/Nichtleerseinsbedingung Passwort eingeführt
 * Login Bereich view eingeführt
 *  ein Partial angelegt um Fehlermeldungen bei fehlerhaften Eingaben zu rendern
+* Erfolgsmeldung eingefügt für erfolgreiche Registrierung, create Methode beendet
+* Für den Login-Bereich legen wir einen Sessionscontroller an
 
