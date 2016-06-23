@@ -30,4 +30,7 @@
 * ersetzt durch new view vom sessions controller
 * routing angepasst
 * view sessions new mit form gefüllt
-*
+*Login Bereich um Scroll-Down menü erweitert, 
+*destroy methode sessions controller, 
+*logout sessions helper
+
