@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'impressum' => 'static_pages#impressum'
   get 'contact' => 'static_pages#contact'
   get 'login' => 'sessions#new'
+  post 'login' => 'sessions#create'
   get 'registrieren' => 'users#new'
   get 'bewerten' => 'static_pages#bewerten'
   get 'show'     => 'users#show'

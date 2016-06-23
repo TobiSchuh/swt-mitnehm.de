@@ -26,4 +26,7 @@
 *  ein Partial angelegt um Fehlermeldungen bei fehlerhaften Eingaben zu rendern
 * Erfolgsmeldung eingefügt für erfolgreiche Registrierung, create Methode beendet
 * Für den Login-Bereich legen wir einen Sessionscontroller an
-
+*Login view vom static pages controller entfernt
+* ersetzt durch new view vom sessions controller
+* routing angepasst
+* view sessions new mit form gefüllt
