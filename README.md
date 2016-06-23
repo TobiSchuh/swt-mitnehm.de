@@ -30,3 +30,4 @@
 * ersetzt durch new view vom sessions controller
 * routing angepasst
 * view sessions new mit form gefüllt
+*
