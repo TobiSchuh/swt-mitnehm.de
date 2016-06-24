@@ -5,6 +5,10 @@ Rails.application.routes.draw do
 
 
   resources :datens
+  get 'new' => 'datens#new'
+  get 'show' => 'datens#index'
+
+
   get 'sessions/new'
 
   root 'static_pages#home'
