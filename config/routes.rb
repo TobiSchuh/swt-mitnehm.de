@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   get 'registrieren' => 'users#new'
   get 'bewerten' => 'static_pages#bewerten'
   get 'show'     => 'users#show'
+  get 'edit'     => 'users#edit'
+  post 'edit'    => 'users#edit'
 
   resources :users
 
