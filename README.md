@@ -38,4 +38,5 @@
 * routing modifiziert
 * footer angepasst, hintergrundbild home-seite angepasst
 * Impressum seite, mit Bootstrap grid row und col-md-6 angepasst, erzeugt zwei gleichmäßig geformte Spalten
+* über die bootstrap class img-circle bild eingefügt impressum 
 
