@@ -39,4 +39,7 @@
 * footer angepasst, hintergrundbild home-seite angepasst
 * Impressum seite, mit Bootstrap grid row und col-md-6 angepasst, erzeugt zwei gleichmäßig geformte Spalten
 * über die bootstrap class img-circle bild eingefügt impressum 
+* Kopfzeile angepasst, damit Registierenbutton bei eingeloggtem User nicht erscheint, dafür link_to 
+  Registrieren in den else part eingefügt
+  
 
