@@ -55,17 +55,14 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: thick double #21202c;
+  border-top: 1px solid #eaeaea;
   color: #777;
 }
 
 footer a {
-  color: #555;
+  color: white;
 }
 
-footer a:hover {
-  color: #222;
-}
 
 footer small {
   float: left;
@@ -83,33 +80,6 @@ footer ul li {
 
 
 
-/* sidebar */
-
-aside {
-  section.user_info {
-    margin-top: 20px;
-  }
-  section {
-    padding: 10px 0;
-    margin-top: 20px;
-    &:first-child {
-      border: 0;
-      padding-top: 0;
-    }
-    span {
-      display: block;
-      margin-bottom: 3px;
-      line-height: 1;
-    }
-    h1 {
-      font-size: 1.4em;
-      text-align: left;
-      letter-spacing: -1px;
-      margin-bottom: 3px;
-      margin-top: 0px;
-    }
-  }
-}
 
 /* new user  */
 
@@ -127,4 +97,15 @@ input {
 
 .background {
   background: url(/assets/1.jpg);
+}
+
+
+#Box {
+  background-color: transparent;
+
+}
+
+.col-md-6 {
+  
+  color: green;
 }
