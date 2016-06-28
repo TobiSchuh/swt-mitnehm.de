@@ -1,20 +1,63 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("../assets/objekt_rot.jpg");
+    background-repeat: repeat;
+    background-position: top;
+}
+</style>
+</head>
+
+
+
 <% provide(:title, "Home") %>
 
 
 
-<div class="center jumbotron">
+
+
+ <div class="container">
+  <div class="jumbotron center">
+      <h1>Bienvenidos at mitnehm.de</h1>
+
+
+  </div>
+  <div class="row">
 
 
 
-
-<%= link_to show_path, class: 'btn btn-info' do %>
-  <span class="glyphicon glyphicon-search"></span>
-  Mitnehmgelegenheit suchen
-<% end %>
-
-<%= link_to new_path, class: 'btn btn-info' do %>
-  <span class="glyphicon glyphicon-search"></span>
-  Mitnehmgelegenheit inserieren
-<% end %>
+    <div class="col-sm-4">
+    
+    <div class = "jumbotron center">
+       <%= link_to new_path, class: 'btn btn-info' do %>
+       <span class="glyphicon glyphicon-search"></span>
+       Mitnehmgelegenheit inserieren
+      <% end %>
+        </div>
+      </div>
  
+    
+    <div class="col-sm-4">
+
+        <div class="jumbotron center">
+        <div style='width: 800px;'>
+         <div id="map" style='width: 800px; height: 400px;'></div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-sm-4">
+    <div class = "jumbotron center">
+    <%= link_to show_path, class: 'btn btn-info' do %>
+    <span class="glyphicon glyphicon-search"></span>
+    Mitnehmgelegenheit suchen
+    <% end %>
+    </div>
+    </div>
+  </div>
 </div>
+
+</html>
