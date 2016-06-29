@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  was: MyString
+  standort: MyString
+  wohin: MyString
+  datum: 2016-06-25 00:25:12
+
+two:
+  was: MyString
+  standort: MyString
+  wohin: MyString
+  datum: 2016-06-25 00:25:12

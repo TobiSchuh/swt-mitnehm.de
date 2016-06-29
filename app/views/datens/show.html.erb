@@ -1,0 +1,27 @@
+<% provide(:title, "Anzahl Ergebnisse") %>
+
+<p id="notice"></p>
+
+<p>
+  <strong>Was:</strong>
+  <%= @daten.was %>
+</p>
+
+<p>
+  <strong>Standort:</strong>
+  <%= @daten.standort %>
+</p>
+
+<p>
+  <strong>Wohin:</strong>
+  <%= @daten.wohin %>
+</p>
+
+<p>
+  <strong>Datum:</strong>
+  <%= @daten.datum %>
+</p>
+
+<%= link_to 'Edit', edit_daten_path(@daten) %> 
+<%= link_to 'Back', datens_path %>
+<%= link_to 'Back', root_url %>
