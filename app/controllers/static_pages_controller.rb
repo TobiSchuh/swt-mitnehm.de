@@ -14,6 +14,4 @@ class StaticPagesController < ApplicationController
   def registrieren
   end
 
-  def bewerten
-  end
 end

@@ -41,5 +41,6 @@
 * über die bootstrap class img-circle bild eingefügt impressum 
 * Kopfzeile angepasst, damit Registierenbutton bei eingeloggtem User nicht erscheint, dafür link_to 
   Registrieren in den else part eingefügt
-  
+* before_filter :checkLogin, :only => [:new] im daten Controller eingefügt, damit nicht eingeloggte user
+  nichts posten können, checkLogin-Methode definiert
 
